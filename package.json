@@ -1,6 +1,6 @@
 {
 	"devDependencies": {
-		"@changesets/cli": "^2.26.0"
+		"@changesets/cli": "^2.27.8"
 	},
 	"scripts": {
 		"postinstall": "cd cli && pnpm build",
