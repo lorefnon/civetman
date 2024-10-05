@@ -44,7 +44,7 @@ compileFile := async (file: string) =>
     #{compiled}
     """
 
-fileToOutFile := (file: string, tsx: boolean) => file.replace ".civet", tsx ? ".tsx" : ".ts"
+fileToOutFile := (file: string, tsx: boolean) => file + (tsx ? ".tsx" : ".ts")
 
 buildFile := async (file: string, tsx: boolean) =>
     outFile := fileToOutFile file, tsx
