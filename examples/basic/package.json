@@ -11,7 +11,7 @@
 		"postinstall": "civetman build --noGit"
 	},
 	"dependencies": {
-		"civetman": "workspace:*",
+		"@lorefnon/civetman": "workspace:*",
 		"type-fest": "^3.5.7",
 		"typescript": "^4.9.5"
 	},
